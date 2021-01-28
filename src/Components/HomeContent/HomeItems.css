@@ -1,11 +1,14 @@
 /* Home Body start */
 .home-pic{
     float: left;
-    padding-right: 10px;
+    margin-right: 10px;
+
+    box-shadow: 0 0 10px black;
 }
 p{
     text-align: justify;
-    margin-top: 10px;
+    margin-top: 3px;
+    margin-left: 5px;
 }
 .d-block{
     width: 100%;

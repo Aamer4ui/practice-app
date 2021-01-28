@@ -18,7 +18,7 @@ export const HomeItem = () => {
       </Carousel>
       <p>
         <img className="home-pic" src="homepage1.jpg" alt="" />
-        PMU vision is to be a higher education institution having a
+        <b>PMU</b> vision is to be a higher education institution having a
         transformative impact on society through sustainable innovation in
         education, research, and creativity. Mission PMU is committed to
         sustaining world-class excellence in education, research and service by
