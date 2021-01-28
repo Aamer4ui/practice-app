@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header Start */
+header{
+    height: 120px;
+}
+.logo img{
+    float: right;
+    margin-top:35px;
+}
+.logo1 img{
+    margin-top: 10px;
+    float: left;
+}
+.logo-name img{
+    margin-top:42px;
+    padding-left: 15px;
+}

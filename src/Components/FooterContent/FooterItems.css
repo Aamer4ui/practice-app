@@ -1,0 +1,14 @@
+/* Footer style */
+footer{
+    background-color: #283747;
+    color: white;
+    height: 100px;
+    margin-top: 20px;
+}
+.footer-para{
+    padding: 10px 10px;
+    text-align: center;
+}
+footer img{
+    float: right;
+}
