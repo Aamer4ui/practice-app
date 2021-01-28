@@ -17,7 +17,7 @@ export const HomeItem = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src="HomePage.jpg" alt="Third slide" />
+          <img className="d-block w-50" src="HomePage.jpg" alt="Third slide" />
 
           <Carousel.Caption>
             <h3>Second slide label</h3>
