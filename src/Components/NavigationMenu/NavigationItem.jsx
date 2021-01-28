@@ -5,7 +5,6 @@ import { NavDropdown, Nav, Navbar } from "react-bootstrap";
 export const NavigationItem = () => {
   return (
     <div>
-      <h1>hiiii</h1>
       <Navbar className="color-nav" expand="lg" variant="dark">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
