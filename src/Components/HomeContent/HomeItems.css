@@ -3,12 +3,13 @@
     float: left;
     margin-right: 10px;
 
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 10px 10px black;
 }
 p{
     text-align: justify;
+    text-indent: 200px;
     margin-top: 3px;
-    margin-left: 5px;
+    margin: 5px 10px 0 0;
 }
 .d-block{
     width: 100%;

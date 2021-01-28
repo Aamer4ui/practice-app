@@ -5,6 +5,8 @@ import { Carousel } from "react-bootstrap";
 export const HomeItem = () => {
   return (
     <div>
+      {/* ---------------Carousel Start----------------------- */}
+
       <Carousel>
         <Carousel.Item>
           <img className="d-block" src="pic1.jpg" alt="First slide" />
@@ -16,6 +18,10 @@ export const HomeItem = () => {
           <img className="d-block" src="pic3.jpg" alt="Third slide" />
         </Carousel.Item>
       </Carousel>
+
+      {/* --------------Crousel End---------------- */}
+
+      {/* ---------------Home Page Information start-------------------- */}
       <p>
         <img className="home-pic" src="homepage1.jpg" alt="" />
         <b>PMU</b> vision is to be a higher education institution having a
@@ -48,6 +54,7 @@ export const HomeItem = () => {
         principles also ensure the sustainability of the institution. It follows
         an inclusive,
       </p>
+      {/* ------------------End---------------------------- */}
     </div>
   );
 };

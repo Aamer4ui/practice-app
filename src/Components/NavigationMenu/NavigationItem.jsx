@@ -9,9 +9,9 @@ export const NavigationItem = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link className="m-3" href="#home">
+            <Navbar.Brand className="m-3" href="#home">
               Home
-            </Nav.Link>
+            </Navbar.Brand>
             <NavDropdown
               className="m-3"
               title="Acadamics"
@@ -24,7 +24,7 @@ export const NavigationItem = () => {
               <NavDropdown.Item href="#">Parent Login</NavDropdown.Item>
               <NavDropdown.Item href="#">Guest Login</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="m-3" href="#home">
+            <Nav.Link className="m-3" href="#">
               About Us
             </Nav.Link>
           </Nav>
