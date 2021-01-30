@@ -17,18 +17,18 @@ export const NavigationItem = () => {
               title="Acadamics"
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="#">Courses Offered</NavDropdown.Item>
+              <NavDropdown.Item href="">Courses Offered</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown
               className="m-3 "
               title="SignIn"
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="#">Student Login</NavDropdown.Item>
-              <NavDropdown.Item href="#">Parent Login</NavDropdown.Item>
-              <NavDropdown.Item href="#">Guest Login</NavDropdown.Item>
+              <NavDropdown.Item href="">Student Login</NavDropdown.Item>
+              <NavDropdown.Item href="">Parent Login</NavDropdown.Item>
+              <NavDropdown.Item href="">Guest Login</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className="m-3" href="#">
+            <Nav.Link className="m-3" href="">
               About Us
             </Nav.Link>
           </Nav>
