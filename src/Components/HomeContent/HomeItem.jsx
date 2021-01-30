@@ -1,27 +1,10 @@
 import React from "react";
 import "../HomeContent/HomeItems.css";
-import { Carousel } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 
 export const HomeItem = () => {
   return (
     <div>
-      {/* ---------------Carousel Start----------------------- */}
-
-      <Carousel>
-        <Carousel.Item>
-          <img className="d-block" src="pic1.jpg" alt="" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block" src="pic2.jpg" alt="" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block" src="pic3.jpg" alt="" />
-        </Carousel.Item>
-      </Carousel>
-
-      {/* --------------Crousel End---------------- */}
-
       <Card>
         <img className="home-pic" src="homepage1.jpg" alt="" />
 
@@ -57,10 +40,6 @@ export const HomeItem = () => {
           sustainability of the institution.
         </p>
       </Card>
-
-      {/* ---------------Home Page Information start-------------------- */}
-
-      {/* ------------------End---------------------------- */}
     </div>
   );
 };
