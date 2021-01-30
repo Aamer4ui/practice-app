@@ -12,7 +12,7 @@ export const HeaderItem = () => {
           <img src="logo-name.png" alt="" />
         </a>
         <a href="#" className="logo">
-          <img src="images1.png" alt="" />
+          <img src="images1.png" alt="" style={{ width: "250px" }} />
         </a>
       </header>
     </div>
