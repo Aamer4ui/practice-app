@@ -10,13 +10,13 @@ export const HomeItem = () => {
 
       <Carousel>
         <Carousel.Item>
-          <img className="d-block" src="pic1.jpg" alt="First slide" />
+          <img className="d-block" src="pic1.jpg" alt="" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block" src="pic2.jpg" alt="Second slide" />
+          <img className="d-block" src="pic2.jpg" alt="" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block" src="pic3.jpg" alt="Third slide" />
+          <img className="d-block" src="pic3.jpg" alt="" />
         </Carousel.Item>
       </Carousel>
 
