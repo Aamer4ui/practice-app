@@ -19,7 +19,11 @@ export const NavigationItem = () => {
             >
               <NavDropdown.Item href="#">Courses Offered</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown className="m-3" title="SignIn" id="basic-nav-dropdown">
+            <NavDropdown
+              className="m-3 "
+              title="SignIn"
+              id="basic-nav-dropdown"
+            >
               <NavDropdown.Item href="#">Student Login</NavDropdown.Item>
               <NavDropdown.Item href="#">Parent Login</NavDropdown.Item>
               <NavDropdown.Item href="#">Guest Login</NavDropdown.Item>
