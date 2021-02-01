@@ -15,6 +15,7 @@ export const Crousel = () => {
           <img className="d-block" src="pic3.jpg" alt="" />
         </Carousel.Item>
       </Carousel>
+      <br/>
     </div>
   );
 };

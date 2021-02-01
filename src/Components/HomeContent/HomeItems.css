@@ -2,11 +2,14 @@
 .home-pic{
     border-radius: 30px;
     box-shadow: 0 10px 10px black;
-    height: 500px;
+    height: 550px;
+}
+img{
+    float: left;
+    margin-right: 10px;
 }
 p{
     text-align: justify;
     text-indent: 200px;
-    margin-top: 3px;
-    margin: 5px 10px 0 0;
+    
 }
