@@ -11,9 +11,10 @@ export const HeaderItem = () => {
         <a href="#" className="logo-name">
           <img src="logo-name.png" alt="" />
         </a>
-        <p className="heading-para">
-          Prince Mohammad Bin Fahd University </p>
-          <p className="heading-para1">Create Minds, Transform The World </p>
+        {/* <h2>
+          Prince Mohammad Bin Fahd University
+          <h3>Create Minds, Transform The World </h3>
+        </h2> */}
       </header>
     </div>
   );
