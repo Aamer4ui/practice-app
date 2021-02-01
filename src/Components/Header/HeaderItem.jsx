@@ -11,7 +11,7 @@ export const HeaderItem = () => {
         <a href="#" className="logo-name">
           <img src="logo-name.png" alt="" />
         </a>
-        <h2>Prince Mohammad Bin Fahd Univercity</h2>
+        <h2>Prince Mohammad Bin Fahd University</h2>
         <h3>Create Minds, Transform The World </h3>
       </header>
     </div>
