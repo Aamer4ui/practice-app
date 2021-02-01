@@ -16,14 +16,20 @@ header{
     margin-top:42px;
     padding-left: 15px;
 }
-h2{
-    text-align: center;
-    color:#283747;
+.heading-para1{
+    float: right;
+    font-size: 25px;
+    color:orangered;
     text-transform: uppercase;
+    margin: 0 20px 0 0;
+    margin-top: 0;
 
 }
-h3{
+.heading-para{
     text-align: center;
-    color: orangered;
+    float:right;
+    color:#283747;
     text-transform: uppercase;
+    font-size: 2rem;
+    margin:0 20px 0 0;
 }
