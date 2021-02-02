@@ -1,7 +1,6 @@
 import React from "react";
 import "../NavigationMenu/NavigationItems.css";
 import { NavDropdown, Nav, Navbar } from "react-bootstrap";
-import { Demo } from "../Demo/Demo";
 
 export const NavigationItem = () => {
   return (
@@ -25,7 +24,7 @@ export const NavigationItem = () => {
               title="SignIn"
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="./">Student Login</NavDropdown.Item>
+              <NavDropdown.Item href="">Student Login</NavDropdown.Item>
               <NavDropdown.Item href="">Parent Login</NavDropdown.Item>
               <NavDropdown.Item href="">Guest Login</NavDropdown.Item>
             </NavDropdown>
@@ -35,7 +34,6 @@ export const NavigationItem = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Demo />
     </div>
   );
 };
