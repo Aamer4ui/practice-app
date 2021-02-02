@@ -11,6 +11,7 @@ export const Landing = () => {
     <div>
       <HeaderItem />
       <NavigationItem />
+      
       <Crousel />
       <HomeItem />
       <FooterItem />
