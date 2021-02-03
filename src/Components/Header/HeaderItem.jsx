@@ -6,7 +6,7 @@ export const HeaderItem = () => {
     <div>
       <header>
         <a href="#" className="logo1">
-          <img src="c-logo-new.png" alt="univercity logo" />
+          <img src="c-logo-new.png" alt="university logo" />
         </a>
         <a href="#" className="logo-name">
           <img src="logo-name.png" alt="" />

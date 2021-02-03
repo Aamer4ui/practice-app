@@ -16,7 +16,7 @@ export const NavigationItem = () => {
             </Navbar.Brand>
             <NavDropdown
               className="m-3"
-              title="Acadamics"
+              title="Academics"
               id="basic-nav-dropdown"
             >
               <NavDropdown.Item href="">Courses Offered</NavDropdown.Item>
