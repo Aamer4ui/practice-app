@@ -1,6 +1,8 @@
 import React from "react";
 import "../NavigationMenu/NavigationItems.css";
 import { NavDropdown, Nav, Navbar } from "react-bootstrap";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { StudentLogin } from "../Student/StudentLogin";
 
 export const NavigationItem = () => {
   return (
@@ -24,7 +26,7 @@ export const NavigationItem = () => {
               title="SignIn"
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item href="">Student Login</NavDropdown.Item>
+              <NavDropdown.Item href="/Student">Student Login</NavDropdown.Item>
               <NavDropdown.Item href="">Parent Login</NavDropdown.Item>
               <NavDropdown.Item href="">Guest Login</NavDropdown.Item>
             </NavDropdown>
@@ -34,6 +36,14 @@ export const NavigationItem = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      {/* --------Routing----------- */}
+      <Router>
+        <Switch>
+          <Route path="/Student">
+            <StudentLogin />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 };
