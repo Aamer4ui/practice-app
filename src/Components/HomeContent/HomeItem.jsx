@@ -1,6 +1,5 @@
 import React from "react";
 import "../HomeContent/HomeItems.css";
-// import { Card } from "react-bootstrap";
 
 export const HomeItem = () => {
   return (
