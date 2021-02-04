@@ -1,8 +1,8 @@
 import React from "react";
 import "../NavigationMenu/NavigationItems.css";
 import { NavDropdown, Nav, Navbar } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { StudentLogin } from "../Student/StudentLogin";
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import { StudentLogin } from "../Student/StudentLogin";
 
 export const NavigationItem = () => {
   return (
@@ -37,13 +37,13 @@ export const NavigationItem = () => {
         </Navbar.Collapse>
       </Navbar>
       {/* --------Routing----------- */}
-      <Router>
+      {/* <Router>
         <Switch>
           <Route path="/Student">
             <StudentLogin />
           </Route>
         </Switch>
-      </Router>
+      </Router> */}
     </div>
   );
 };
